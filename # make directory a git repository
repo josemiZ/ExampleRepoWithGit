@@ -1,0 +1,53 @@
+# make directory a git repository
+$ git init
+
+# adding an origin
+git remote add origin <remote_URL>
+
+# making and file addition
+$ git add <file or directory name>
+# To add all files not staged:
+$ git add .
+
+# To stage a specific file:
+$ git add index.html
+
+# To stage an entire directory:
+$ git add css
+
+# Adding a commit with message
+$ git commit -m "Commit message in quotes"
+
+# show status of commits
+$ git status
+
+# Create a new branch
+$ git branch <branch_name>
+
+# List all remote or local branches
+$ git branch -a
+
+# Delete a branch
+$ git branch -d <branch_name>
+
+# Checkout an existing branch
+$ git checkout <branch_name>
+
+# Checkout and create a new branch with that name
+$ git checkout -b <new_branch>
+
+# Add remote repository
+$ git remote <command> <remote_name> <remote_URL>
+
+# List named remote repositories
+$ git remote -v
+
+# cloning a repo
+$ git clone <remote_URL>
+
+$ git pull <branch_name> <remote_URL/remote_name>
+
+$ git push <remote_URL/remote_name> <branch>
+
+# Push all local branches to remote repository
+$ git push —all
