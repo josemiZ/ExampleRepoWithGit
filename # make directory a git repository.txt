@@ -30,6 +30,7 @@ $ git branch -a
 # Delete a branch
 $ git branch -d <branch_name>
 
+
 # Checkout an existing branch
 $ git checkout <branch_name>
 
